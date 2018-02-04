@@ -2,7 +2,7 @@
 #   Main Configs   #
 # ---------------- #
 baseurl:
-url: http://www.wangxiaonan.cn
+url: wangxiaonan.cn
 date_format: "ordinal"
 title: 记事
 subtitle: "wangxiaonan"
