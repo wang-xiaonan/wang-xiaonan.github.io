@@ -6,6 +6,8 @@ description: Spring Framework
 keywords: Spring, Spring Framework
 ---
 
+### Spring Framework 
+
 > Spring Framework包含了大约20个模块，被分成一下Core Container, Data Access/Integration, Web, AOP (Aspect Oriented Programming), Instrumentation, Messaging和Test这6个部分，每个模块都有一个jar包，instrumentation模块有两个jar，图中还缺少spring-context-support模块。
 
 ![spring-overview](/images/spring/spring-overview.png)
@@ -75,4 +77,6 @@ keywords: Spring, Spring Framework
     <version>xxxxxxxxx</version>
 </dependency>
 ```
-参考：[Spring Framework Reference Documentation](https://docs.spring.io/spring/docs/4.3.14.BUILD-SNAPSHOT/spring-framework-reference/htmlsingle/#overview-data-access)
+### 参考
+
+[Spring Framework Reference Documentation](https://docs.spring.io/spring/docs/4.3.14.BUILD-SNAPSHOT/spring-framework-reference/htmlsingle/#overview-data-access) 
