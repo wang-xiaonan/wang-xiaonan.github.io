@@ -18,14 +18,14 @@ mathjax: true
 ### 超链接
 
 ```
-[靠谱-ing](http://mazhuang.org)
+[百度](https://www.baidu.com)
 
-<http://mazhuang.org>
+<https://www.baidu.com>
 ```
 
-[靠谱-ing](http://mazhuang.org)  
+[百度](https://www.baidu.com)  
 
-<http://mazhuang.org>
+<https://www.baidu.com>
 
 ### 列表
 
@@ -56,9 +56,22 @@ mathjax: true
 * 无序列表项 2
 
 * 无序列表项 3
-
+```
 - [x] 任务列表 1
 - [ ] 任务列表 2
+```
+- [x] 任务列表 1
+- [ ] 任务列表 2
+
+### 分割线
+
+```
+--- 
+```
+
+---
+
+Tips: `---` 后面要加空格，单独一行。
 
 ### 强调
 
@@ -107,22 +120,27 @@ Tips: `#` 与标题中间要加空格。
 
 ### 代码块
 
-```python
-print 'Hello, World!'
+​```[type] 
+content
+
 ```
 
-1. list item1
+```
 
-2. list item2
+```html
+<div>
+  content
+</div>
+```
 
-   ```python
-   print 'hello'
-   ```
+``包裹短代码
+
+`content`
 
 ### 图片
 
 ```
-![本站favicon](/favicon.ico)
+![名称](地址)
 ```
 
 ![本站favicon](/favicon.ico)
@@ -141,12 +159,17 @@ print 'Hello, World!'
 
 ### Emoji
 
+`:camel:`
 :camel:
+`:blush:`
 :blush:
+`:smile:`
 :smile:
 
 ### Footnotes
-
+```
+This is a text with footnote[^1].
+```
 This is a text with footnote[^1].
 
 ### mermaid
