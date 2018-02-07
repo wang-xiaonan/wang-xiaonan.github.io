@@ -1,6 +1,6 @@
 ---
 layout: post
-title: @RequestMapping Property
+title: RequestMapping Property
 categories: Spring
 description: RequestMapping 注解属性
 keywords: RequestMapping, Property
