@@ -1,21 +1,26 @@
 ---
 layout: post
-title: Git 设置代理
+title: Git 配置
 categories: Git
-description: 设置 Git 代理
-keywords: 代理, http.proxy，设置代理
+description: Git config
+keywords: 配置, git
 ---
 
-> Git 设置 Http 代理
+> Git 配置基本参数
 
-#### 查看代理
+#### 查看配置
 
 ```
 git config --global --list
-或
+或具体某个参数
 git config --global http.proxy
 git config --global https.proxy
 ```
+#### 设置用户名和邮箱
+
+> - 用户名：`git config --global user.name yourname`
+> - 邮件：`git config --global user.email youremailadrss` 
+
 #### 设置代理
 
 ```
@@ -25,9 +30,9 @@ git config --global https.proxy https://proxyhost:port
 git config --global http.proxy http://user:password@proxyhost:port
 git config --global https.proxy https://user:password@proxyhost:port
 ```
-#### 取消代理
+#### 删除设置
 
 ```
 git config --global --unset http.proxy
-git config --global --unset https.proxy
+git config --global --unset user.name
 ```
