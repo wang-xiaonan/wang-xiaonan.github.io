@@ -6,7 +6,7 @@ description: 设置 Git 代理
 keywords: 代理, http.proxy，设置代理
 ---
 
-### Git 设置 Http 代理
+> Git 设置 Http 代理
 
 #### 查看代理
 
