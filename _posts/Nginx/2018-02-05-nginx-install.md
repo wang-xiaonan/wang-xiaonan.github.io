@@ -1,14 +1,14 @@
 ---
 layout: post
-title: Nginx安装
+title: Nginx 安装
 categories: Nginx
 description: Windows 下使用 Nginx
-keywords: Nginx, nginx, nginx安装
+keywords: Nginx, nginx, nginx 安装
 ---
 
-windows系统下安装
+windows 系统下安装
 
-1. 下载地址，下载windows版， [download](http://nginx.org/en/download.html) 
+1. 下载地址，下载 windows 版， [download](http://nginx.org/en/download.html) 
 2. 解压，搞定
 3. 查看版本 nginx -s reopen
 4. 查看命令 nginx -h 或者 nginx -?  

@@ -1,12 +1,12 @@
 ---
 layout: post
-title: vue-cli搭建环境时报错
+title: vue-cli 搭建环境时报错
 categories: Vue
-description: vue-cli搭建环境时报错
+description: vue-cli 搭建环境时报错
 keywords: vue-cli
 ---
 
-> vue-cli脚手架搭建环境时报 Failed at the chromedriver@2.33.1 install script.
+> vue-cli 脚手架搭建环境时报 Failed at the chromedriver@2.33.1 install script.
 
 错误：
 ```
