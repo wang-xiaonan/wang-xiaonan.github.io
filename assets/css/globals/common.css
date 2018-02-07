@@ -183,7 +183,7 @@
 
 .site-footer {
     position: relative;
-    margin-top: 40px;
+    margin-top: 20px;
     padding-top: 40px;
     padding-bottom: 40px;
     font-size: 12px;
@@ -235,7 +235,7 @@
 }
 
 .share {
-    margin: 20px 0
+    margin: 40px 0 0 0;
 }
 
 .markdown-body {
