@@ -1,0 +1,32 @@
+技术面准备：
+
+1. 数据库
+  left join、right join、inner join、full join区别
+  表索引知识
+  分库分表
+  备份
+  sql优化和数据库优化
+ 
+2. 数据结构
+  
+
+3. java基础
+  设计模式
+  jvm
+  多线程
+
+4. Spring、Struts、Mybatis
+   持久化
+
+5. Linux
+  常见命令
+
+6. web设计
+  UML图
+  框架结构图
+
+7. js、es
+  cookie
+  session
+  localstorage
+  sessionstorage
