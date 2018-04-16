@@ -20,7 +20,7 @@ MS 维护的 GitHub地址： https://github.com/MicrosoftArchive/redis/releases
 
 1. 将下载的 Redis 解压，cmd 到该目录
 2. 启动，redis-server redis.windows.conf
-3. 测试，redis-cli -h 127.0.0.1 -p 6379
+3. 链接到 Redis：redis-cli -h 127.0.0.1 -p 6379 ；测试成功：PING
 
 #### 将 Redis 添加到 Windows 服务
 
@@ -59,7 +59,7 @@ MS 维护的 GitHub地址： https://github.com/MicrosoftArchive/redis/releases
 - 查看 Redis 配置
 
   - 启动 Redis ，redis-server redis.windows.conf 或者 redis-server --service-start（如果已经将Redis 加到 Windows 服务）
-  - 连接 Redis ，redis-cli -h 127.0.0.1 -p 6379
+  - 连接 Redis ，redis-cli -h 127.0.0.1 -p 6379 (redis-cli -h host -p port -a password)
   - 获取单个参数，CONFIG GET CONFIG_SETTING_NAME
   - 获取所有参数，CONFIG GET *
 
