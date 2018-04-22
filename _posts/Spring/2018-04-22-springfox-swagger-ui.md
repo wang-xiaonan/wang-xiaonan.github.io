@@ -32,7 +32,7 @@ Spring 整合 swagger-ui
 
 springfox 是从 swagger-springmvc 发展过来的，以后使用 springfox-swagger2 就可以了，springfox-swagger-ui 是一套前端解析插件
 
-*相关：* https://github.com/springfox/springfox/blob/master/docs/transitioning-to-v2.md  
+*相关：* [https://github.com/springfox/springfox/blob/master/docs/transitioning-to-v2.md](https://github.com/springfox/springfox/blob/master/docs/transitioning-to-v2.md  )   
 
 #### 资源路径配置
 
@@ -53,7 +53,7 @@ springfox 是从 swagger-springmvc 发展过来的，以后使用 springfox-swag
     <mvc:default-servlet-handler />
     ```
 
-  *方式区别参考：* https://www.cnblogs.com/dflmg/p/6393416.html
+  *方式区别参考：* [https://www.cnblogs.com/dflmg/p/6393416.html]( https://www.cnblogs.com/dflmg/p/6393416.html) 
 
 #### 配置配置类
 
@@ -93,11 +93,11 @@ public class SwaggerConfig {
 
 - 可以通过注册多个 @Bean 对 api 进行分组，
 
-  *参考：* https://blog.csdn.net/w4hechuan2009/article/details/68892718
+  *参考：* [https://blog.csdn.net/w4hechuan2009/article/details/68892718]( https://blog.csdn.net/w4hechuan2009/article/details/68892718) 
 
 - Docket 中有很多参数，可以参考下面的资料，
 
-  *参考：* https://github.com/springfox/springfox/blob/master/docs/transitioning-to-v2.md
+  *参考：* [https://github.com/springfox/springfox/blob/master/docs/transitioning-to-v2.md](https://github.com/springfox/springfox/blob/master/docs/transitioning-to-v2.md) 
 
 #### Swagger 使用
 
@@ -122,15 +122,15 @@ public class SwaggerConfig {
 
   ​
 
- *参考：* https://github.com/swagger-api/swagger-core/wiki/Annotations
+ *参考：* [https://github.com/swagger-api/swagger-core/wiki/Annotations]( https://github.com/swagger-api/swagger-core/wiki/Annotations) 
 
-  ​	https://blog.csdn.net/xupeng874395012/article/details/68946676
+  	[https://blog.csdn.net/xupeng874395012/article/details/68946676](https://blog.csdn.net/xupeng874395012/article/details/68946676)
 
   
 
-  参考工程地址：https://github.com/wang-xiaonan/swagger-ui
+  参考工程地址：[https://github.com/wang-xiaonan/swagger-ui](https://github.com/wang-xiaonan/swagger-ui)
 
-  ​
+  
 
   #### 参考
 
