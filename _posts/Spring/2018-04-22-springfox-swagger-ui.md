@@ -13,21 +13,21 @@ Spring 整合 swagger-ui
 #### 引入依赖
 
 ```xml
-		<!-- springfox是从swagger-springmvc发展而来形成了一个新的组件，
-		 	 springfox-swagger2是帮助我们自动生成json文件，
-		 	 springfox-swagger-ui是帮助将json解析出来进行展示-->
-		<!-- https://mvnrepository.com/artifact/io.springfox/springfox-swagger2 -->
-		<dependency>
-			<groupId>io.springfox</groupId>
-			<artifactId>springfox-swagger2</artifactId>
-			<version>${swagger2.version}</version>
-		</dependency>
-		<!-- https://mvnrepository.com/artifact/io.springfox/springfox-swagger-ui -->
-		<dependency>
-			<groupId>io.springfox</groupId>
-			<artifactId>springfox-swagger-ui</artifactId>
-			<version>${swagger-ui.version}</version>
-		</dependency>
+<!-- springfox是从swagger-springmvc发展而来形成了一个新的组件，
+ 	 springfox-swagger2是帮助我们自动生成json文件，
+ 	 springfox-swagger-ui是帮助将json解析出来进行展示-->
+<!-- https://mvnrepository.com/artifact/io.springfox/springfox-swagger2 -->
+<dependency>
+	<groupId>io.springfox</groupId>
+	<artifactId>springfox-swagger2</artifactId>
+	<version>${swagger2.version}</version>
+</dependency>
+<!-- https://mvnrepository.com/artifact/io.springfox/springfox-swagger-ui -->
+<dependency>
+	<groupId>io.springfox</groupId>
+	<artifactId>springfox-swagger-ui</artifactId>
+	<version>${swagger-ui.version}</version>
+</dependency>
 ```
 
 springfox 是从 swagger-springmvc 发展过来的，以后使用 springfox-swagger2 就可以了，springfox-swagger-ui 是一套前端解析插件
@@ -107,18 +107,18 @@ public class SwaggerConfig {
 
 - swagger 注解
 
-  | 作用范围       | API                | 使用位置                                                     |
-  | -------------- | ------------------ | ------------------------------------------------------------ |
-  | 协议集描述     | @Api               | 用于controller类上，表示标识这个类是swagger的资源            |
-  | 协议描述       | @ApiOperation      | 用在controller的方法上，表示一个http请求的操作               |
-  | Response集     | @ApiResponses      | 用在controller的方法上                                       |
-  | Response       | @ApiResponse       | 用在 @ApiResponses里边                                       |
-  | 非对象参数集   | @ApiImplicitParams | 用在controller的方法上，表示单独的请求参数，可以是方法参数中没有的 |
-  | 非对象参数描述 | @ApiImplicitParam  | 用在@ApiImplicitParams的方法里边                             |
-  | 描述返回对象   | @ApiModel          | 用在返回对象类上，表示对类进行说明                           |
+  | 作用范围       | API                | 使用位置      |
+  | -------------- | ------------------ | ----------- |
+  | 协议集描述  | @Api | 用于controller类上，表示标识这个类是swagger的资源  |
+  | 协议描述| @ApiOperation  | 用在controller的方法上，表示一个http请求的操作|
+  | Response集 | @ApiResponses | 用在controller的方法上            |
+  | Response       | @ApiResponse      | 用在 @ApiResponses里边 |
+  | 非对象参数集 | @ApiImplicitParams | 用在controller的方法上，表示单独的请求参数，可以是方法参数中没有的 |
+  | 非对象参数描述 | @ApiImplicitParam  | 用在@ApiImplicitParams的方法里边  |
+  | 描述返回对象   | @ApiModel| 用在返回对象类上，表示对类进行说明 |
   | 对象属性       | @ApiModelProperty  | 用在出入参数对象的字段上，表示对model属性的说明或者数据操作更改 |
-  | 对参数         | @ApiParam          | 表示对参数的添加元数据（说明或是否必填等）                   |
-  | 协议描述       | @ApiIgnore         | 于类或者方法上，可以不被swagger显示在页面上                  |
+  | 对参数  | @ApiParam   | 表示对参数的添加元数据（说明或是否必填等）|
+  | 协议描述     | @ApiIgnore  | 于类或者方法上，可以不被swagger显示在页面上|
   *参考：* https://github.com/swagger-api/swagger-core/wiki/Annotations
 
   ​	https://blog.csdn.net/xupeng874395012/article/details/68946676
