@@ -132,7 +132,7 @@ public class SwaggerConfig {
 
   
 
-  #### 参考
+#### 参考
 
   [Spring Boot中使用Swagger2构建强大的RESTful API文档 - 程序员DD](http://blog.didispace.com/springbootswagger2/) 
 
