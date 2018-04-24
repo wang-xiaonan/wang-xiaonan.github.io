@@ -10,6 +10,8 @@ keywords: Spring, Springfox, swagger
 
 Swagger api 分组
 
+官方文档： [http://springfox.github.io/springfox/docs/current/#xml-config](http://springfox.github.io/springfox/docs/current/#xml-config) 
+
 ```java
 /**
  * 可以将bean注解到xml中，这样方便在正式环境中去掉Swagger <br>
