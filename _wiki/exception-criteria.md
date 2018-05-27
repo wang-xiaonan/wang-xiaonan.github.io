@@ -52,7 +52,7 @@ Custom Log Levels
 
    ```java
    logger.info("userName=" + userName + ", phoneNo=" + phoneNo);
-   logger.info("userName={}, phoneNo={}"， userName， phoneNo);// 推荐
+   logger.info("userName={}, phoneNo={}", userName, phoneNo);// 推荐
    ```
    如果日志输出的频率非常高，再使用字符串拼接的形式会造成程序性能的下降，使用 Slf4j 提供的第二种方式简单方便。
 
@@ -96,7 +96,7 @@ Custom Log Levels
    ```java
    try {
        // do something ...
-   } catch （Exception e）{
+   } catch (Exception e) {
        System.out.print(e.getMessage());// 不允许
        System.out.print(e.getMessage());// 不允许
        e.printStackTrace();// 不允许
@@ -108,7 +108,7 @@ Custom Log Levels
    ```java
    try {
        // do something ...
-   } catch （Exception e）{
+   } catch (Exception e) {
        logger.debug("error");// 不推荐
        logger.debug("something is wrong : param = {}", param);// 推荐
    }
